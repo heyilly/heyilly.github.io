@@ -28,5 +28,24 @@
       "placeholder": true
     }
   ],
-  "publications": []
+  "publications": [
+    {
+      "title": "An Improved Algorithm to Select Homotopy Candidates for the Constrained Optimization of Minimum-Power Networks",
+      "venue": "IEEE",
+      "year": 2025,
+      "pdf": "https://ieeexplore.ieee.org/document/11163892"
+    },
+    {
+      "title": "Strongly-Connected Minimal-Cost Radio-Networks Among Fixed Terminals Using Mobile Relays and Avoiding No-Transmission Zones",
+      "venue": "IEEE",
+      "year": 2024,
+      "pdf": "https://ieeexplore.ieee.org/document/10711430"
+    },
+    {
+      "title": "Best Application Video Award — IEEE CASE 2024",
+      "venue": "IEEE CASE 2024",
+      "year": 2024,
+      "pdf": "https://2024.ieeecase.org/wp-content/uploads/sites/573/CASE_Booklet.pdf"
+    }
+  ]
 }
