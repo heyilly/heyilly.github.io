@@ -172,14 +172,15 @@
           </div>
         </div>
 
-        <!-- Projects / Publications -->
+        <!-- Projects  -->
         <div class="card" id="projects">
-          <div class="card-tabs">
-            <div class="card-tab active" data-tab="projects">Projects</div>
-            <div class="card-tab" data-tab="publications">Publications</div>
-          </div>
           <div id="tab-projects"></div>
-          <div id="tab-publications" style="display:none"></div>
+          
+        </div>
+        <!-- Publications -->
+        <div class="card" id="publications">
+          <div class="card-label">Publications</div>
+          <div id="tab-publications"></div>
         </div>
 
         <!-- Contact -->
@@ -235,7 +236,7 @@
   </div>
 
   <script>
-    const MY_EMAIL = 'your@email.com'; /* ← CHANGE THIS */
+    const MY_EMAIL = 'ileanap123@email.com'; 
 
     const icons = {
       chess: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="4" y="17" width="16" height="3" rx="1"/><path d="M8 17V9M16 17V9M9 9h6M7 9V7h10v2"/><circle cx="12" cy="4" r="2"/></svg>`,
@@ -289,16 +290,7 @@
         : `<div class="pub-empty">Publications coming soon — check back later.</div>`;
     }
 
-    // Tabs
-    document.querySelectorAll('.card-tab').forEach(tab => {
-      tab.addEventListener('click', () => {
-        document.querySelectorAll('.card-tab').forEach(t => t.classList.remove('active'));
-        tab.classList.add('active');
-        const target = tab.dataset.tab;
-        document.getElementById('tab-projects').style.display    = target==='projects'     ? '' : 'none';
-        document.getElementById('tab-publications').style.display = target==='publications' ? '' : 'none';
-      });
-    });
+   
 
     // Nav scroll
     document.querySelectorAll('.topnav a[href^="#"]').forEach(a => {
@@ -310,7 +302,7 @@
 
     window.addEventListener('scroll', () => {
       let current = 'about';
-      ['about','skills','projects','contact'].forEach(id => {
+      ['about','skills','projects', 'publications','contact', 'resume'].forEach(id => {
         const el = document.getElementById(id);
         if (el && el.getBoundingClientRect().top < 120) current = id;
       });
