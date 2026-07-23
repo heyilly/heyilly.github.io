@@ -1,0 +1,32 @@
+{
+  "projects": [
+    {
+      "name": "Rota",
+      "description": "Roman strategy board game. Custom adjacency-list board, AI agent opponent, real-time play.",
+      "tags": ["React", "FastAPI", "AWS Lambda", "Python"],
+      "github": "https://github.com/heyilly/Rota",
+      "live": "https://your-cloudfront-url.cloudfront.net",
+      "icon": "chess",
+      "placeholder": false
+    },
+    {
+      "name": "Coming soon",
+      "description": "Next project",
+      "tags": [],
+      "github": "",
+      "live": "",
+      "icon": "code",
+      "placeholder": true
+    },
+    {
+      "name": "Coming soon",
+      "description": "Next project",
+      "tags": [],
+      "github": "",
+      "live": "",
+      "icon": "code",
+      "placeholder": true
+    }
+  ],
+  "publications": []
+}
