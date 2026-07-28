@@ -10,13 +10,13 @@
       "placeholder": false
     },
     {
-      "name": "Coming soon",
-      "description": "Next project",
-      "tags": [],
-      "github": "",
-      "live": "",
-      "icon": "code",
-      "placeholder": true
+    "name": "Premier Electrolysis",
+    "description": "Full-stack booking and client management platform for Premier Electrolysis of Houston, built with FastAPI and PostgreSQL.",
+    "tags": ["FastAPI", "PostgreSQL", "AWS"],
+    "github": "https://github.com/heyilly/premier-electrolysis",
+    "live": "https://d4yqdbub69k9y.cloudfront.net", 
+    "icon": "code",
+    "placeholder": false
     },
     {
       "name": "Coming soon",
